@@ -1,0 +1,11 @@
+In the first part of this computer language processing project we built a simple compiler for TOOL (Toy Object Oriented Language). The pipeline through which an input TOOL program goes is composed of the following components: lexer (yields tokens from chars), parser (yields Abstact Syntax Trees, AST from tokens), name analyser (rejects bad inputs due to errors such as defining a class twice or overloading a method), type checker (rejects bad inputs due to type errors), code generator (yields jvm bytecode from ASTs). \\ \\
+The extension we've chosen to work on will enable the use of \begin{itemize}
+\item default scala-like method parameters
+\item default values for class and method variables
+\item arbitrary number of arguments to a function and therefore Bool, String and Object arrays.
+%\item an extra copy() method that allows a quick cloning of an object while specifying which field to modify 
+\end{itemize}
+
+%This section should convince us that you have a clear picture of the general
+%architecture of your compiler and that you understand how your extension fits
+%in it.
